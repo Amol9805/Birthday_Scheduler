@@ -64,6 +64,6 @@ class BirthdayScheduler:
 
 
 if __name__ == "__main__":
-    CSV_PATH = r"C:\Users\amols\scripts\birthdays.csv"
+    CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
     scheduler = BirthdayScheduler(CSV_PATH)
     scheduler.check_and_send_emails()
