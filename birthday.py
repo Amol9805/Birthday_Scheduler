@@ -9,14 +9,15 @@ from dotenv import load_dotenv
 
 class BirthdayScheduler:
     def __init__(self, csv_path):
-        load_dotenv()  # Load .env file
+        #loading environmental credentials
+        load_dotenv()  
 
         self.csv_path = csv_path
         self.email = os.getenv("EMAIL_ADDRESS")
         self.app_password = os.getenv("EMAIL_PASSWORD")
         self.birthdays_df = self.load_birthdays()
 
-        if not self.email or not self.app_password:
+        if not self.email and not self.app_password:
             raise ValueError("Email credentials not found in environment variables.")
 
     def load_birthdays(self):
