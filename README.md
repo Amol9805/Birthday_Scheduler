@@ -87,7 +87,7 @@ CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 
 4. Designing automation scripts with scalability and maintainability in mind.
 
-5. Automated script using Windows Task Scheduler on windows system everyday at 9:00 AM.
+5. **Automated script using Windows Task Scheduler** on windows system everyday at 9:00 AM.
 
 ---
 
