@@ -1,11 +1,11 @@
-## Birthday Email Scheduler (Optimized Python Version)
+# Birthday Email Scheduler (Optimized Python Version)
 
 A Python automation script that reads birthdays from a CSV file and sends personalized birthday wishes via email **only to people whose birthday is today**.  
 This version is optimized for performance and reliability using **vectorized Pandas operations** and **single SMTP login**.
 
 ---
 
-# Key Improvements:
+## Key Improvements:
 
 - Vectorized birthday filtering using Pandas (`dt.month`, `dt.day`)
 - Single SMTP login for all emails (batch sending)
@@ -15,7 +15,7 @@ This version is optimized for performance and reliability using **vectorized Pan
 
 ---
 
-# Technologies Used:
+## Technologies Used:
 
 - Python
 - Pandas
@@ -25,7 +25,7 @@ This version is optimized for performance and reliability using **vectorized Pan
 
 ---
 
-# Project Structure:
+## Project Structure:
 
 birthday_scheduler/
 │
@@ -38,7 +38,7 @@ birthday_scheduler/
 
 ---
 
-# envioronmental credentials setup :
+## envioronmental credentials setup :
 
 1. EMAIL_ADDRESS=your_email@gmail.com
 
@@ -47,12 +47,12 @@ birthday_scheduler/
 
 ---
  
-# update csv path:
+## update csv path:
 
 CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 
 ---
-# How It Works:
+## How It Works:
 
 - Loads user data from the CSV file.
 
@@ -66,7 +66,7 @@ CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 
 ---
 
-# Insights:
+## Insights:
 
 1. Vectorized date filtering significantly improves performance over row-by-row iteration.
 
@@ -77,7 +77,7 @@ CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 4. The solution can be easily extended for reminders, anniversaries, or notifications.
 
 ---
-# Key Learnings:
+## Key Learnings:
 
 1. Practical use of Pandas datetime operations and vectorization.
 
@@ -91,7 +91,7 @@ CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 
 ---
 
-# Outcomes:
+## Outcomes:
 
 - Reduced manual effort by 80%.
 
@@ -100,12 +100,12 @@ CSV_PATH = r"C:\Users\amols\birthday_scheduler\birthdays.csv"
 - Ensured secure, reliable, and timely email delivery.
 
 ---
-# Conclusion:
+## Conclusion:
 
 The Birthday Email Scheduler demonstrates how Python automation can streamline repetitive communication tasks. By combining secure credential management, efficient data processing, and reliable email delivery, the project delivers a scalable and production-ready solution suitable for real-world use cases.
 
 
-# sample CSV Format:
+## sample CSV Format:
 
 The CSV file must contain the following columns:
 
