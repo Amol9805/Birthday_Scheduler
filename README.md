@@ -1,4 +1,4 @@
-# Birthday Email Scheduler (Optimized Python Version)
+# Birthday Email Scheduler (Optimized Python Version) 
 
 A Python automation script that reads birthdays from a CSV file and sends personalized birthday wishes via email **only to people whose birthday is today**.  
 This version is optimized for performance and reliability using **vectorized Pandas operations** and **single SMTP login**.
